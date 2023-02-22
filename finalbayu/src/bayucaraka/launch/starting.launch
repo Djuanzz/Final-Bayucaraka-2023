@@ -1,0 +1,4 @@
+<launch>
+    <node name="mengFinger" pkg="bayucaraka" type="finger.py" output="screen"></node>
+    <node name="mengDrone" pkg="bayucaraka" type="drone" output="screen"></node>
+</launch>
